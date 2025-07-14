@@ -27,7 +27,6 @@ A RESTful API built with **Node.js**, **Express**, and **MongoDB** to manage per
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/personal-notes-bookmarks.git
