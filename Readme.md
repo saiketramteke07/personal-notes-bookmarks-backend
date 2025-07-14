@@ -62,13 +62,22 @@ backend/
 ├── server.js
 ├── package.json
 └── README.md
+ 
+ API DOCUMENTATION
 
+| Method | Endpoint         | Description                            |
+| ------ | ---------------- | -------------------------------------- |
+| POST   | `/api/notes`     | Create a new note                      |
+| GET    | `/api/notes`     | Get all notes |
+| GET    | `/api/notes/:id` | Get a note by ID                       |
+| PUT    | `/api/notes/:id` | Update a note                          |
+| DELETE | `/api/notes/:id` | Delete a note                          |
 
 
 | Method | Endpoint             | Description                                |
 | ------ | -------------------- | ------------------------------------------ |
 | POST   | `/api/bookmarks`     | Create a new bookmark (auto-fetch title ✅) |
-| GET    | `/api/bookmarks`     | List/search bookmarks (`?q=`, `tags=`)     |
+| GET    | `/api/bookmarks`     | List/search bookmarks     |
 | GET    | `/api/bookmarks/:id` | Get a bookmark by ID                       |
 | PUT    | `/api/bookmarks/:id` | Update a bookmark                          |
 | DELETE | `/api/bookmarks/:id` | Delete a bookmark                          |
